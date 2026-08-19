@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WDC Services | Home Kitchen &amp; Bathroom Renovations Melbourne</title>
+<meta name="description" content="Kitchen, bathroom and laundry renovations across Melbourne's inner east. Licensed trades in-house, fixed written quotes, rated 5.0 from 171 Google reviews. Call 0425 801 004.">
+<meta name="theme-color" content="#131310">
+<link rel="canonical" href="https://wdcservices.com.au/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WDC Services | Home Kitchen &amp; Bathroom Renovations Melbourne">
+<meta property="og:description" content="One team, one point of contact, from design through to the final clean. Rated 5.0 from 171 Google reviews. Free on-site quotes across Melbourne's inner east.">
+<meta property="og:image" content="https://wdcservices.com.au/assets/images/hero.jpg">
+<meta property="og:url" content="https://wdcservices.com.au/">
+<link rel="icon" href="assets/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="assets/images/favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/images/favicon-180x180.png">
+<meta name="msapplication-TileImage" content="assets/images/favicon-270x270.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/images/hero.webp" type="image/webp" fetchpriority="high">
+<style>
+/* ==========================================================================
+   WDC Services - Kitchen & Bathroom Renovations
+   Skin D "Prestige Gold", re-based on the real brand gold #fcbf00
+   Light-dominant page. Dark accent sections: Why Us, Final CTA, Footer.
+   ========================================================================== */
+
+:root{
+  --bg-light:#faf9f6;
+  --bg-off:#f3f0e8;
+  --bg-white:#ffffff;
+  --bg-dark:#131310;
+  --bg-darker:#0c0c0a;
+  --text-dark:#17170f;
+  --text-body:#55554b;
+  --text-muted:#7d7d70;
+  --text-light:#faf9f6;
+  --accent:#fcbf00;
+  --accent-deep:#a87a00;
+  --border:rgba(23,23,15,.10);
+  --border-gold:rgba(252,191,0,.30);
+  --grad-hl:linear-gradient(100deg,#c08e00,#7a5800);
+  --maxw:1240px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{
+  margin:0;
+  font-family:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background:var(--bg-light);
+  color:var(--text-body);
+  font-size:1.0625rem;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+section{padding:clamp(3rem,5.5vw,5rem) 0}
+h1,h2,h3{color:var(--text-dark);margin:0}
+h1{font-size:clamp(2.1rem,4.6vw,3.6rem);font-weight:700;letter-spacing:-.032em;line-height:1.06}
+h2{font-size:clamp(2rem,4vw,3rem);font-weight:600;letter-spacing:-.028em;line-height:1.12}
+h3{font-size:1.25rem;font-weight:600;letter-spacing:-.015em;line-height:1.3}
+p{margin:0}
+.lede{font-size:1.0625rem;line-height:1.65;max-width:60ch}
+
+/* Keyword highlight: gradient fill + italic serif type shift (one treatment sitewide) */
+.hl{
+  font-family:"Instrument Serif",Georgia,"Times New Roman",serif;
+  font-style:italic;font-weight:400;letter-spacing:-.005em;
+  background:var(--grad-hl);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.on-dark{--grad-hl:linear-gradient(100deg,#ffd964,#fcbf00);color:rgba(250,249,246,.74)}
+.on-dark h1,.on-dark h2,.on-dark h3{color:var(--text-light)}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.6rem;
+  font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--text-muted);margin-bottom:1.1rem;
+}
+.on-dark .eyebrow{color:rgba(250,249,246,.62)}
+.eyebrow .dot{width:6px;height:6px;flex:none;color:var(--accent)}
+.icon{width:18px;height:18px;flex:none}
+
+/* ---------- Buttons: 8-12px radius, never pills ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  padding:15px 26px;border-radius:10px;
+  font-weight:600;font-size:.9375rem;line-height:1;font-family:inherit;
+  text-decoration:none;border:1px solid transparent;cursor:pointer;
+  transition:background .2s,color .2s,transform .2s,border-color .2s,box-shadow .2s;
+}
+.btn .icon{width:17px;height:17px}
+.btn .arw{transition:transform .2s}
+.btn:hover .arw{transform:translateX(4px)}
+.btn-dark{background:var(--text-dark);color:var(--bg-light)}
+.btn-dark:hover{background:#000;transform:translateY(-1px)}
+.btn-gold{background:var(--accent);color:#17170f}
+.btn-gold:hover{background:#ffcd28;transform:translateY(-1px)}
+.btn-white{background:#fff;color:#17170f}
+.btn-white:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,0,0,.16)}
+.btn-outline{background:transparent;color:var(--text-dark);border-color:var(--border)}
+.btn-outline:hover{border-color:var(--text-dark);transform:translateY(-1px)}
+.btn-glass{
+  background:linear-gradient(135deg,rgba(255,255,255,.16),rgba(255,255,255,.06));
+  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border-color:rgba(255,255,255,.22);color:#fff;
+}
+.btn-glass:hover{background:linear-gradient(135deg,rgba(255,255,255,.24),rgba(255,255,255,.10));transform:translateY(-1px)}
+
+/* ---------- Glass surface system ---------- */
+.glass{
+  background:linear-gradient(135deg,rgba(255,255,255,.14) 0%,rgba(255,255,255,.05) 100%);
+  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:20px;
+}
+@supports not ((backdrop-filter:blur(16px)) or (-webkit-backdrop-filter:blur(16px))){
+  .glass,.btn-glass,.chip-glass,.rating-badge{background:rgba(20,20,20,.65)}
+}
+.chip{display:inline-flex;align-items:center;gap:.5rem;padding:8px 14px;border-radius:10px;font-size:.8125rem;font-weight:600;line-height:1.2}
+.chip-glass{
+  background:linear-gradient(135deg,rgba(255,255,255,.16),rgba(255,255,255,.06));
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.2);color:#fff;text-decoration:none;
+}
+.chip-light{background:var(--bg-white);border:1px solid var(--border);color:var(--text-dark)}
+.stars{display:inline-flex;gap:2px;color:var(--accent)}
+.stars svg{width:14px;height:14px;fill:currentColor}
+
+/* ==========================================================================
+   SECTION 1 - Sticky navbar
+   ========================================================================== */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;border-bottom:1px solid transparent;transition:background .3s,border-color .3s,box-shadow .3s}
+.nav-in{max-width:var(--maxw);margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px}
+.nav-logo{position:relative;display:block;flex:none;height:42px}
+.nav-logo img{height:42px;width:auto;transition:opacity .3s}
+.nav-logo .lg-dark{position:absolute;inset:0;opacity:0}
+.nav.solid{
+  background:rgba(250,249,246,.94);
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+  border-bottom-color:var(--border);box-shadow:0 1px 14px rgba(23,23,15,.05);
+}
+.nav.solid .lg-light{opacity:0}
+.nav.solid .lg-dark{opacity:1}
+.nav-links{display:flex;gap:26px;margin:0 auto;list-style:none;padding:0}
+.nav-links a{font-size:.9rem;font-weight:500;color:rgba(255,255,255,.9);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.nav.solid .nav-links a{color:var(--text-body)}
+.nav.solid .nav-links a:hover{color:var(--accent-deep)}
+.nav-right{display:flex;align-items:center;gap:14px;flex:none}
+.nav-soc{display:flex;gap:8px}
+.nav-soc a{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;border:1px solid rgba(255,255,255,.22);color:rgba(255,255,255,.9);transition:.2s}
+.nav-soc a:hover{background:var(--accent);border-color:var(--accent);color:#17170f}
+.nav.solid .nav-soc a{border-color:var(--border);color:var(--text-body)}
+.nav-tel{display:inline-flex;align-items:center;gap:.45rem;font-size:.9rem;font-weight:600;color:#fff;text-decoration:none;white-space:nowrap;transition:color .2s}
+.nav.solid .nav-tel{color:var(--text-dark)}
+.nav-tel:hover{color:var(--accent)}
+.burger{display:none;width:42px;height:42px;border-radius:10px;border:1px solid rgba(255,255,255,.22);background:transparent;color:#fff;place-items:center;cursor:pointer}
+.nav.solid .burger{border-color:var(--border);color:var(--text-dark)}
+.mob{display:none;background:var(--bg-dark);border-top:1px solid rgba(255,255,255,.1)}
+.mob.open{display:block}
+.mob ul{list-style:none;margin:0;padding:12px 24px 20px}
+.mob a{display:block;padding:12px 0;color:rgba(250,249,246,.85);text-decoration:none;font-weight:500;border-bottom:1px solid rgba(255,255,255,.07)}
+
+/* ==========================================================================
+   SECTION 2 - Hero + lead form
+   ========================================================================== */
+/* hero sits on a dark photo, so it uses the bright-gold highlight gradient */
+.hero{--grad-hl:linear-gradient(100deg,#ffd964,#fcbf00);
+  position:relative;min-height:92vh;display:flex;align-items:center;padding:112px 0 58px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover}
+.hero-bg::after{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 58% 86% at 18% 50%,rgba(0,0,0,.56) 0%,rgba(0,0,0,.30) 46%,transparent 73%),
+    linear-gradient(180deg,rgba(0,0,0,.12) 0%,rgba(0,0,0,.10) 55%,rgba(0,0,0,.30) 100%);
+}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.3fr .9fr;gap:52px;align-items:center}
+.rating-badge{
+  display:inline-flex;align-items:center;gap:.6rem;padding:9px 15px;border-radius:11px;
+  text-decoration:none;font-size:.85rem;font-weight:600;color:#fff;
+  background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.07));
+  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.24);transition:background .2s;
+}
+.rating-badge:hover{background:linear-gradient(135deg,rgba(255,255,255,.26),rgba(255,255,255,.12))}
+.rating-badge .gmark{width:17px;height:17px;flex:none}
+.hero h1{color:#fff;margin:1.2rem 0 0;max-width:24ch;text-shadow:0 2px 30px rgba(0,0,0,.35)}
+.hero-sub{margin-top:1.25rem;color:rgba(255,255,255,.87);font-size:1.09rem;max-width:52ch;line-height:1.6}
+.trust-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.6rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:1.6rem}
+
+/* Lead form card (glass in hero, solid in final CTA) */
+.formcard{padding:26px 26px 22px}
+.formcard h3{color:#fff;font-size:1.3rem;letter-spacing:-.02em}
+.formcard .sub{font-size:.8125rem;color:rgba(255,255,255,.62);margin-top:.4rem;font-weight:500}
+.gform{margin-top:1.15rem;display:grid;gap:12px}
+.gform label{display:block;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.56);margin-bottom:5px}
+.gform input,.gform select,.gform textarea{
+  width:100%;background:transparent;border:none;border-bottom:1px solid rgba(255,255,255,.25);
+  color:#fff;padding:8px 2px;font:inherit;font-size:.9375rem;outline:none;border-radius:0;transition:border-color .2s;
+}
+.gform input:focus,.gform select:focus,.gform textarea:focus{border-bottom-color:var(--accent)}
+.gform ::placeholder{color:rgba(255,255,255,.42)}
+.gform select{
+  -webkit-appearance:none;appearance:none;cursor:pointer;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23ffffff88' stroke-width='1.5'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 2px center;
+}
+.gform select option{color:#17170f;background:#fff}
+.gform textarea{resize:vertical;min-height:46px}
+.gform .submit{width:100%;margin-top:6px}
+.microcopy{text-align:center;font-size:.75rem;color:rgba(255,255,255,.56);margin-top:.75rem;font-weight:500}
+.form-done{display:none;text-align:center;padding:26px 8px;color:rgba(255,255,255,.8)}
+.form-done svg{width:40px;height:40px;color:var(--accent);margin:0 auto .8rem}
+.form-done strong{display:block;color:#fff;font-size:1.05rem;margin-bottom:.4rem}
+.sent .gform,.sent .microcopy{display:none}
+.sent .form-done{display:block}
+
+/* ==========================================================================
+   SECTION 3 - Logo marquee
+   ========================================================================== */
+.marq-sec{padding:34px 0;background:var(--bg-white);border-block:1px solid var(--border)}
+.marq-label{text-align:center;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);margin-bottom:20px}
+.marquee{
+  display:flex;overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+}
+.marq-track{display:flex;flex:none;gap:54px;padding-right:54px;align-items:center;white-space:nowrap}
+.marq-item{display:inline-flex;align-items:center;gap:.5rem;font-size:1.05rem;font-weight:600;letter-spacing:-.01em;color:#a5a598;transition:color .25s}
+.marquee:hover .marq-item{color:#6f6f62}
+.marq-item svg{width:16px;height:16px;color:var(--accent);opacity:.6}
+
+/* ---------- Split section headers ---------- */
+.split-head{display:grid;grid-template-columns:1.05fr .85fr;gap:48px;align-items:end;margin-bottom:40px}
+.split-head .lede{color:var(--text-body)}
+.head-link{display:inline-flex;align-items:center;gap:.45rem;font-weight:600;font-size:.9rem;color:var(--text-dark);text-decoration:none;white-space:nowrap}
+.head-link .arw{transition:transform .2s}
+.head-link:hover .arw{transform:translateX(4px)}
+
+/* ==========================================================================
+   SECTION 4 - Services grid
+   ========================================================================== */
+.svc-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:26px}
+.svc-card{
+  grid-column:span 2;display:flex;flex-direction:column;
+  background:var(--bg-white);border:1px solid var(--border);border-radius:20px;overflow:hidden;
+  text-decoration:none;color:inherit;box-shadow:0 1px 2px rgba(0,0,0,.05);
+  transition:border-color .3s,box-shadow .3s,transform .3s;
+}
+.svc-card:nth-child(4),.svc-card:nth-child(5){grid-column:span 3}
+.svc-card:hover{border-color:var(--border-gold);box-shadow:0 8px 30px rgba(23,23,15,.09);transform:translateY(-2px)}
+.svc-img{aspect-ratio:16/10;overflow:hidden;background:var(--bg-off)}
+.svc-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.svc-card:hover .svc-img img{transform:scale(1.03)}
+.svc-body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1;gap:.7rem}
+.num{
+  display:inline-grid;place-items:center;min-width:34px;height:26px;padding:0 8px;border-radius:8px;
+  border:1px solid var(--border);font-size:.72rem;font-weight:700;letter-spacing:.06em;
+  color:var(--accent-deep);font-variant-numeric:tabular-nums;align-self:flex-start;
+}
+.svc-body p{font-size:.95rem;line-height:1.6}
+.svc-link{margin-top:auto;padding-top:.5rem;display:inline-flex;align-items:center;gap:.4rem;font-size:.875rem;font-weight:600;color:var(--text-dark)}
+.svc-link .arw{transition:transform .2s}
+.svc-card:hover .svc-link .arw{transform:translateX(4px)}
+
+/* ==========================================================================
+   SECTION 5 - Why us + stats (DARK accent, light photo + subtle gradient)
+   ========================================================================== */
+.why{position:relative;overflow:hidden}
+.why-bg{position:absolute;inset:0;z-index:0}
+.why-bg img{width:100%;height:100%;object-fit:cover}
+.why-bg::after{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 62% 90% at 22% 50%,rgba(0,0,0,.60) 0%,rgba(0,0,0,.32) 48%,transparent 75%),
+    linear-gradient(180deg,rgba(0,0,0,.16) 0%,rgba(0,0,0,.14) 55%,rgba(0,0,0,.34) 100%);
+}
+.why-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .8fr;gap:60px;align-items:center}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:13px 30px;margin:1.7rem 0 0;padding:0;list-style:none}
+.checklist li{display:flex;align-items:flex-start;gap:.65rem;font-size:.95rem;color:rgba(250,249,246,.85);line-height:1.5}
+.checklist svg{width:17px;height:17px;flex:none;color:var(--accent);margin-top:3px}
+.why-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:1.9rem}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stat{padding:26px 22px}
+.stat .big{display:flex;align-items:center;gap:.35rem;font-size:clamp(1.9rem,3.2vw,2.5rem);font-weight:700;letter-spacing:-.03em;color:#fff;line-height:1}
+.stat .big svg{width:22px;height:22px;fill:var(--accent);color:var(--accent)}
+.stat .lbl{margin-top:.55rem;font-size:.8rem;font-weight:500;color:rgba(250,249,246,.62);line-height:1.4}
+
+/* ==========================================================================
+   SECTION 6 - Process steps
+   ========================================================================== */
+.proc{background:var(--bg-off)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;position:relative;margin-top:8px}
+.steps::before{content:"";position:absolute;top:17px;left:9%;right:9%;height:1px;background:var(--border)}
+.step{position:relative;z-index:1}
+.step .sn{
+  display:grid;place-items:center;width:36px;height:36px;border-radius:10px;
+  background:var(--accent);color:#17170f;font-size:.8rem;font-weight:700;
+  font-variant-numeric:tabular-nums;margin-bottom:1.1rem;
+}
+.step h3{margin-bottom:.5rem}
+.step p{font-size:.95rem;line-height:1.6}
+/* mid-page CTA band (dark strip inside the light process section) */
+.ctaband{
+  margin-top:50px;background:var(--bg-dark);border-radius:22px;padding:34px 38px;
+  display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;
+}
+.ctaband h3{color:#fff;font-size:1.5rem;letter-spacing:-.02em}
+.ctaband p{color:rgba(250,249,246,.66);font-size:.95rem;margin-top:.4rem}
+.ctaband .grp{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ==========================================================================
+   SECTION 7 - Recent work
+   ========================================================================== */
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.work-card{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--border);background:var(--bg-off)}
+.work-card img{aspect-ratio:4/3;width:100%;height:auto;object-fit:cover;transition:transform .4s ease}
+.work-card:hover img{transform:scale(1.03)}
+.work-meta{
+  position:absolute;left:16px;right:16px;bottom:16px;padding:14px 16px;border-radius:14px;
+  background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.78));
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.6);
+}
+.work-meta strong{display:block;font-size:.95rem;color:var(--text-dark);font-weight:600}
+.work-meta span{font-size:.8rem;color:var(--text-muted)}
+.pullquote{max-width:800px;margin:50px auto 0;text-align:center}
+.pullquote .stars{margin-bottom:1.2rem;justify-content:center}
+.pullquote .stars svg{width:18px;height:18px}
+.pullquote blockquote{
+  margin:0;font-size:clamp(1.35rem,2.5vw,1.85rem);line-height:1.4;letter-spacing:-.02em;
+  color:var(--text-dark);font-weight:500;
+}
+.pullquote cite{display:block;margin-top:1.3rem;font-style:normal;font-size:.85rem;color:var(--text-muted);font-weight:500}
+.work-cta{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:44px}
+
+/* ==========================================================================
+   SECTION 8 - Google reviews
+   ========================================================================== */
+.rev{background:var(--bg-off);text-align:center}
+.rev-badge{display:inline-flex;align-items:center;gap:.55rem;padding:9px 16px;border-radius:11px;background:var(--bg-white);border:1px solid var(--border);font-size:.85rem;font-weight:600;color:var(--text-dark);text-decoration:none;margin-bottom:1.3rem}
+.rev-badge .gmark{width:17px;height:17px}
+.rev h2{max-width:20ch;margin:0 auto}
+.rev .sub{max-width:56ch;margin:1.2rem auto 0;font-size:1.0625rem}
+.rev-chips{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:1.8rem}
+.rev-chips .chip{padding:11px 18px;font-size:.875rem}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:2.6rem;text-align:left}
+.rev-card{background:var(--bg-white);border:1px solid var(--border);border-radius:20px;padding:26px 24px;box-shadow:0 1px 2px rgba(0,0,0,.05);display:flex;flex-direction:column}
+.rev-top{display:flex;align-items:center;gap:12px;margin-bottom:.9rem}
+.avatar{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--bg-off);border:1px solid var(--border);font-weight:700;color:var(--accent-deep);font-size:1rem;flex:none}
+.rev-who strong{display:block;font-size:.95rem;color:var(--text-dark);font-weight:600;line-height:1.3}
+.rev-who span{font-size:.78rem;color:var(--text-muted)}
+.rev-card .stars{margin-bottom:.8rem}
+.rev-card p{font-size:.925rem;line-height:1.62;color:var(--text-body)}
+.rev-src{margin-top:auto;padding-top:1.1rem;display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--text-muted);font-weight:500}
+.rev-src svg{width:13px;height:13px}
+.rev-btn{margin-top:2.3rem}
+
+/* ==========================================================================
+   SECTION 9 - FAQ
+   ========================================================================== */
+.faq-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.acc{border-top:1px solid var(--border)}
+.acc details{border-bottom:1px solid var(--border)}
+.acc summary{
+  list-style:none;cursor:pointer;padding:22px 44px 22px 0;position:relative;
+  font-size:1.0625rem;font-weight:600;color:var(--text-dark);line-height:1.4;
+}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{
+  content:"";position:absolute;right:6px;top:50%;width:18px;height:18px;
+  transform:translateY(-50%);transition:transform .25s;
+  background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2317170f' stroke-width='1.5' stroke-linecap='round'%3E%3Cpath d='M12 5v14M5 12h14'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+.acc details[open] summary::after{transform:translateY(-50%) rotate(135deg)}
+.acc .ans{padding:0 44px 24px 0;font-size:.975rem;line-height:1.65;color:var(--text-body)}
+
+/* ==========================================================================
+   SECTION 10 - Social feed
+   ========================================================================== */
+.feed{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.feed a{position:relative;display:block;border-radius:18px;overflow:hidden;border:1px solid var(--border);background:var(--bg-off);text-decoration:none}
+.feed img{aspect-ratio:4/5;width:100%;height:auto;object-fit:cover;transition:transform .4s ease}
+.feed a:hover img{transform:scale(1.03)}
+.feed .play{
+  position:absolute;top:14px;right:14px;display:grid;place-items:center;width:34px;height:34px;border-radius:10px;
+  background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.72));
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#17170f;
+}
+.feed .play svg{width:16px;height:16px}
+.feed .cap{
+  position:absolute;left:12px;right:12px;bottom:12px;padding:11px 13px;border-radius:13px;
+  background:linear-gradient(135deg,rgba(255,255,255,.92),rgba(255,255,255,.8));
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.6);
+}
+.feed .cap strong{display:block;font-size:.82rem;color:var(--text-dark);font-weight:600;line-height:1.35}
+.feed .cap span{font-size:.72rem;color:var(--text-muted)}
+
+/* ==========================================================================
+   SECTIONS 11-13 - Final CTA, social banner, footer (dark zone)
+   ========================================================================== */
+.darkzone{background:var(--bg-dark);position:relative;overflow:hidden}
+.darkzone::before{
+  content:"";position:absolute;inset:0 0 auto;height:70%;z-index:0;
+  background-image:url("assets/images/cta-bg.jpg");background-size:cover;background-position:center;opacity:.45;
+}
+.darkzone::after{
+  content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(19,19,16,.40) 0%,rgba(19,19,16,.80) 58%,var(--bg-dark) 100%);
+}
+.darkzone > *{position:relative;z-index:1}
+.cta-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
+.cta-tel{display:inline-flex;align-items:center;gap:.7rem;margin-top:2.2rem;font-size:clamp(1.6rem,3vw,2.1rem);font-weight:700;letter-spacing:-.02em;color:#fff;text-decoration:none}
+.cta-tel svg{width:26px;height:26px;color:var(--accent)}
+.cta-tel:hover{color:var(--accent)}
+.cta-hours{display:flex;align-items:center;gap:.5rem;margin-top:.9rem;font-size:.9rem;color:rgba(250,249,246,.6)}
+.cta-hours svg{width:16px;height:16px;color:var(--accent)}
+/* solid form card on the dark section */
+.formcard.solid{background:var(--bg-white);border:1px solid rgba(255,255,255,.1);border-radius:20px}
+.formcard.solid h3{color:var(--text-dark)}
+.formcard.solid .sub{color:var(--text-muted)}
+.formcard.solid .gform label{color:var(--text-muted)}
+.formcard.solid .gform input,.formcard.solid .gform select,.formcard.solid .gform textarea{color:var(--text-dark);border-bottom-color:var(--border)}
+.formcard.solid .gform ::placeholder{color:#a8a89c}
+.formcard.solid .gform input:focus,.formcard.solid .gform select:focus,.formcard.solid .gform textarea:focus{border-bottom-color:var(--accent-deep)}
+.formcard.solid .gform select{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2317170f88' stroke-width='1.5'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E")}
+.formcard.solid .microcopy{color:var(--text-muted)}
+.formcard.solid .form-done{color:var(--text-body)}
+.formcard.solid .form-done strong{color:var(--text-dark)}
+.formcard.solid .form-done svg{color:var(--accent-deep)}
+
+.banner{border-top:1px solid rgba(255,255,255,.08);padding:clamp(2.5rem,4.5vw,3.4rem) 0}
+.banner-in{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.banner h2{font-size:clamp(1.6rem,3vw,2.2rem)}
+.banner p{margin-top:.7rem;color:rgba(250,249,246,.66);font-size:.975rem;max-width:46ch}
+.banner .grp{display:flex;gap:12px;flex-wrap:wrap}
+
+.foot{background:var(--bg-darker);color:rgba(250,249,246,.62);padding:clamp(2.8rem,4.5vw,3.8rem) 0 0}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.15fr;gap:44px}
+.foot h4{margin:0 0 1.1rem;font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.foot img.flogo{height:46px;width:auto;margin-bottom:1.2rem}
+.foot p{font-size:.925rem;line-height:1.65;max-width:38ch}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.foot a{text-decoration:none;font-size:.925rem;transition:color .2s}
+.foot a:hover{color:var(--accent)}
+.foot-contact{display:grid;gap:11px;margin-top:1.4rem}
+.foot-contact a{display:inline-flex;align-items:center;gap:.55rem;font-weight:500;color:var(--text-light)}
+.foot-contact svg{width:16px;height:16px;color:var(--accent);flex:none}
+.foot-soc{display:flex;gap:9px;margin-top:1.5rem}
+.foot-soc a{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;border:1px solid rgba(255,255,255,.14);color:rgba(250,249,246,.8);transition:.2s}
+.foot-soc a:hover{background:var(--accent);border-color:var(--accent);color:#17170f}
+.foot-area{display:flex;align-items:flex-start;gap:.55rem;font-size:.925rem;line-height:1.6}
+.foot-area svg{width:16px;height:16px;color:var(--accent);flex:none;margin-top:4px}
+.foot-bar{
+  margin-top:clamp(2.2rem,3.5vw,3rem);border-top:1px solid rgba(255,255,255,.08);padding:24px 0;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.82rem;
+}
+.foot-bar .badges{display:flex;gap:9px;flex-wrap:wrap}
+.foot-bar .badges span{padding:7px 12px;border-radius:9px;border:1px solid rgba(255,255,255,.12);font-weight:500;font-size:.76rem}
+.foot-bar nav{display:flex;gap:18px}
+
+/* ==========================================================================
+   Motion (§2.5) - scroll reveal, marquee. Reduced-motion safe.
+   ========================================================================== */
+@media (prefers-reduced-motion:no-preference){
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease-out,transform .55s ease-out}
+  .reveal.in{opacity:1;transform:none}
+  .marq-track{animation:marq 36s linear infinite}
+  .marquee:hover .marq-track{animation-play-state:paused}
+  .hero-bg img{animation:kenburns 26s ease-out forwards}
+}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.05)}}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width:1080px){
+  .nav-links{display:none}
+  .burger{display:grid}
+  .nav-soc{display:none}
+  .hero-grid,.why-grid,.cta-grid,.faq-grid,.split-head{grid-template-columns:1fr;gap:44px}
+  .split-head{align-items:start;gap:22px}
+  .hero h1{max-width:none}
+  .why-grid{gap:40px}
+  .svc-card,.svc-card:nth-child(4),.svc-card:nth-child(5){grid-column:span 3}
+  .steps{grid-template-columns:1fr 1fr;gap:34px}
+  .steps::before{display:none}
+  .rev-grid{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:36px}
+  .feed{grid-template-columns:repeat(2,1fr)}
+}
+/* Small screens: logo + phone icon + CTA + hamburger must all fit (§ Section 1) */
+@media (max-width:600px){
+  .wrap,.nav-in{padding-left:18px;padding-right:18px}
+  .nav-in{gap:10px}
+  .nav-logo,.nav-logo img{height:34px}
+  .nav-tel .tel-txt{display:none}
+  .nav-tel{width:42px;height:42px;justify-content:center;border:1px solid rgba(255,255,255,.22);border-radius:10px}
+  .nav-tel .icon{width:18px;height:18px}
+  .nav.solid .nav-tel{border-color:var(--border)}
+  .nav-right .btn{padding:12px 15px;font-size:.85rem}
+}
+
+@media (max-width:720px){
+  section{padding:clamp(2.5rem,7vw,3.4rem) 0}
+  /* text spans the full width on mobile, so the vignette becomes a vertical wash */
+  .hero-bg::after,.why-bg::after{
+    background:linear-gradient(180deg,rgba(0,0,0,.36) 0%,rgba(0,0,0,.46) 50%,rgba(0,0,0,.56) 100%);
+  }
+  .hero{min-height:auto;padding:110px 0 48px}
+  .hero-cta .btn,.why-cta .btn,.ctaband .grp .btn{flex:1 1 100%}
+  .svc-grid{grid-template-columns:1fr}
+  .svc-card,.svc-card:nth-child(4),.svc-card:nth-child(5){grid-column:span 1}
+  .checklist{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr}
+  .work-grid{grid-template-columns:1fr}
+  .rev-grid{grid-template-columns:1fr}
+  .feed{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .ctaband{padding:28px 24px}
+  .foot-bar{flex-direction:column;align-items:flex-start}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== Inline SVG icon sprite (icons only, zero emojis) ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-dot" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="currentColor"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l2.9 6.26 6.85.72-5.1 4.6 1.42 6.72L12 16.9 6.93 20.3l1.42-6.72-5.1-4.6 6.85-.72z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l6 3.5-6 3.5z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5-4.6-1.1-8-5.5-8-10.5v-6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H7.5v3H10v7h3v-7h2.6l.4-3H13v-2c0-.6.4-1 1-1z"/></symbol>
+  <symbol id="i-google" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.27c0-.79-.07-1.54-.2-2.27H12v4.51h6.47a5.53 5.53 0 0 1-2.4 3.63v3h3.87c2.27-2.09 3.56-5.17 3.56-8.87z"/><path fill="#34A853" d="M12 24c3.24 0 5.96-1.08 7.94-2.91l-3.87-3a7.2 7.2 0 0 1-10.72-3.78H1.36v3.09A11.99 11.99 0 0 0 12 24z"/><path fill="#FBBC05" d="M5.35 14.31a7.19 7.19 0 0 1 0-4.6V6.62H1.36a12 12 0 0 0 0 10.78z"/><path fill="#EA4335" d="M12 4.77c1.77 0 3.35.61 4.6 1.8l3.43-3.43C17.95 1.18 15.23 0 12 0 7.32 0 3.27 2.69 1.36 6.62l4 3.09A7.19 7.19 0 0 1 12 4.77z"/></symbol>
+</svg>
+
+<!-- ==========================================================
+     SECTION 1 - Sticky navbar
+     ========================================================== -->
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="nav-logo" href="#top" aria-label="WDC Services home">
+      <img class="lg-light" src="assets/images/logo-light.png" alt="WDC Services Kitchen &amp; Bathroom Renovations" width="900" height="296">
+      <img class="lg-dark" src="assets/images/logo-dark.png" alt="" aria-hidden="true" width="900" height="296">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why">About</a></li>
+      <li><a href="#work">Our work</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="nav-soc">
+        <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" aria-label="WDC Services on Instagram"><svg class="icon"><use href="#i-ig"/></svg></a>
+        <a href="https://www.facebook.com/wdcservices1/" target="_blank" rel="noopener" aria-label="WDC Services on Facebook"><svg class="icon"><use href="#i-fb"/></svg></a>
+      </div>
+      <a class="nav-tel" href="tel:+61425801004" aria-label="Call 0425 801 004"><svg class="icon"><use href="#i-phone"/></svg><span class="tel-txt">0425 801 004</span></a>
+      <a class="btn btn-gold" href="#contact">Free quote</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobmenu"><svg class="icon"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <nav class="mob" id="mobmenu">
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why">About</a></li>
+      <li><a href="#process">How we work</a></li>
+      <li><a href="#work">Our work</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+61425801004">Call 0425 801 004</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- ==========================================================
+     SECTION 2 - Hero + lead form
+     ========================================================== -->
+<section class="hero">
+  <div class="hero-bg">
+    <picture>
+      <source srcset="assets/images/hero.webp" type="image/webp">
+      <img src="assets/images/hero.jpg" alt="A bright, freshly renovated bathroom with a floating oak vanity and herringbone tiled floor" width="2000" height="1143" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="wrap hero-grid">
+    <div>
+      <a class="rating-badge" href="https://www.google.com/maps/search/?api=1&amp;query=WDC+Services+Kitchen+%26+Bathroom+Renovations+Balwyn+North+VIC" target="_blank" rel="noopener">
+        <svg class="gmark" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-google"/></svg>
+        <span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <span>5.0 &middot; 171 Google reviews</span>
+      </a>
+      <h1>Melbourne's specialists in <span class="hl">kitchen and bathroom</span> renovations.</h1>
+      <p class="hero-sub">One team, one point of contact, from the first measure-up to the final clean. Licensed trades in-house, a fixed price in writing, and most bathrooms finished in two to three weeks across Melbourne's inner east.</p>
+      <div class="trust-row">
+        <span class="chip chip-glass"><svg class="icon" style="width:15px;height:15px"><use href="#i-shield"/></svg>Licensed trades in-house</span>
+        <span class="chip chip-glass"><svg class="icon" style="width:15px;height:15px"><use href="#i-clock"/></svg>20+ years in Melbourne</span>
+        <span class="chip chip-glass"><svg class="icon" style="width:15px;height:15px"><use href="#i-check"/></svg>Free on-site quotes</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-white" href="tel:+61425801004"><svg class="icon"><use href="#i-phone"/></svg>0425 801 004</a>
+        <a class="btn btn-glass" href="#contact">Get a free quote<svg class="icon arw"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="glass formcard">
+      <h3>Request a free quote</h3>
+      <p class="sub">Free on-site assessment &middot; No obligation</p>
+      <form class="gform" data-lead-form novalidate>
+        <div>
+          <label for="h-name">Name</label>
+          <input id="h-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required>
+        </div>
+        <div>
+          <label for="h-phone">Phone</label>
+          <input id="h-phone" name="phone" type="tel" placeholder="04XX XXX XXX" autocomplete="tel">
+        </div>
+        <div>
+          <label for="h-email">Email</label>
+          <input id="h-email" name="email" type="email" placeholder="you@email.com" autocomplete="email">
+        </div>
+        <div>
+          <label for="h-service">Service</label>
+          <select id="h-service" name="service">
+            <option value="">Choose a service</option>
+            <option>Bathroom renovation</option>
+            <option>Kitchen renovation</option>
+            <option>Laundry renovation</option>
+            <option>Split system air conditioning</option>
+            <option>Tiling and waterproofing</option>
+            <option>Electrical or handyman work</option>
+            <option>Not sure / something else</option>
+          </select>
+        </div>
+        <div>
+          <label for="h-msg">Message (optional)</label>
+          <textarea id="h-msg" name="message" rows="2" placeholder="Tell us about the room and roughly when you'd like it done"></textarea>
+        </div>
+        <button class="btn btn-gold submit" type="submit">Request my quote<svg class="icon arw"><use href="#i-arrow"/></svg></button>
+      </form>
+      <p class="microcopy">Same-business-day response &middot; No obligation</p>
+      <div class="form-done">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+        <strong>Thanks, we've got it.</strong>
+        <span>We'll be in touch same business day. If it's urgent, call Dom on 0425 801 004.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 3 - Logo marquee
+     ========================================================== -->
+<section class="marq-sec">
+  <p class="marq-label">The suppliers and trade partners we build with</p>
+  <div class="marquee">
+    <div class="marq-track" aria-hidden="false">
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Allure Bathrooms</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Elegance Tiles Mitcham</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Styled by Design</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Aussie Asbestos Solutions</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Bright Renovations</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>ProductReview</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>FCW</span>
+    </div>
+    <div class="marq-track" aria-hidden="true">
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Allure Bathrooms</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Elegance Tiles Mitcham</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Styled by Design</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Aussie Asbestos Solutions</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Bright Renovations</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>ProductReview</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>FCW</span>
+    </div>
+    <div class="marq-track" aria-hidden="true">
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Allure Bathrooms</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Elegance Tiles Mitcham</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Styled by Design</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Aussie Asbestos Solutions</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Bright Renovations</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>ProductReview</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>FCW</span>
+    </div>
+    <div class="marq-track" aria-hidden="true">
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Allure Bathrooms</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Elegance Tiles Mitcham</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Styled by Design</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Aussie Asbestos Solutions</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>Bright Renovations</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>ProductReview</span>
+      <span class="marq-item"><svg><use href="#i-dot"/></svg>FCW</span>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 4 - Services grid
+     ========================================================== -->
+<section id="services">
+  <div class="wrap">
+    <div class="split-head reveal">
+      <div>
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Our services</span>
+        <h2>A whole renovation, <span class="hl">under one roof</span>.</h2>
+      </div>
+      <p class="lede">We are not a lead broker who hands your job to whoever answers the phone first. Dom quotes it, Dom runs it, and our own licensed trades do the work. Plumbers, electricians, tilers, certified waterproofers and carpenters, all on the one team.</p>
+    </div>
+
+    <div class="svc-grid">
+      <a class="svc-card reveal" href="#contact">
+        <div class="svc-img"><picture><source srcset="assets/images/svc-bathroom.webp" type="image/webp"><img src="assets/images/svc-bathroom.jpg" alt="Completed bathroom renovation with white subway tiles and a timber vanity" loading="lazy" width="1200" height="780"></picture></div>
+        <div class="svc-body">
+          <span class="num">01</span>
+          <h3>Bathroom renovations</h3>
+          <p>Full strip-out through to the final bead of silicone. New layouts, certified waterproofing, frameless screens and tiling that actually lines up. Most bathrooms are done in two to three weeks.</p>
+          <span class="svc-link">Explore service<svg class="icon arw" style="width:15px;height:15px"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc-card reveal" href="#contact">
+        <div class="svc-img"><picture><source srcset="assets/images/svc-kitchen.webp" type="image/webp"><img src="assets/images/svc-kitchen.jpg" alt="New kitchen with white shaker cabinetry and a stone island bench" loading="lazy" width="1200" height="780"></picture></div>
+        <div class="svc-body">
+          <span class="num">02</span>
+          <h3>Kitchen renovations</h3>
+          <p>New joinery, stone benchtops, splashbacks and appliances, plus all the plumbing and electrical hiding behind them. We sequence the trades so your kitchen is out of action for as little time as possible.</p>
+          <span class="svc-link">Explore service<svg class="icon arw" style="width:15px;height:15px"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc-card reveal" href="#contact">
+        <div class="svc-img"><picture><source srcset="assets/images/svc-laundry.webp" type="image/webp"><img src="assets/images/svc-laundry.jpg" alt="Renovated laundry with white cabinetry and a stainless steel tub" loading="lazy" width="1200" height="780"></picture></div>
+        <div class="svc-body">
+          <span class="num">03</span>
+          <h3>Laundry renovations</h3>
+          <p>Small room, big difference. Cabinetry, tubs, tiling and a machine cavity sized around the washer and dryer you actually own, not the ones in the catalogue.</p>
+          <span class="svc-link">Explore service<svg class="icon arw" style="width:15px;height:15px"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc-card reveal" href="#contact">
+        <div class="svc-img"><picture><source srcset="assets/images/svc-aircon.webp" type="image/webp"><img src="assets/images/svc-aircon.jpg" alt="A split system air conditioner neatly installed on a white wall" loading="lazy" width="1200" height="780"></picture></div>
+        <div class="svc-body">
+          <span class="num">04</span>
+          <h3>Split system air conditioning</h3>
+          <p>Supply and install of most major brands, from $1,650 fully installed with a 5 year warranty. Licensed electrician, tidy pipe runs, and the wall left the way we found it.</p>
+          <span class="svc-link">Explore service<svg class="icon arw" style="width:15px;height:15px"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+
+      <a class="svc-card reveal" href="#contact">
+        <div class="svc-img"><picture><source srcset="assets/images/svc-tiling.webp" type="image/webp"><img src="assets/images/svc-tiling.jpg" alt="A shower recess being waterproofed and tiled" loading="lazy" width="1200" height="780"></picture></div>
+        <div class="svc-body">
+          <span class="num">05</span>
+          <h3>Tiling, waterproofing &amp; electrical</h3>
+          <p>The parts you never see are the parts that fail. Certified waterproofers, licensed sparkies, carpenters and tilers who care about grout lines. Available as standalone jobs, not just full renovations.</p>
+          <span class="svc-link">Explore service<svg class="icon arw" style="width:15px;height:15px"><use href="#i-arrow"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 5 - Why us + stats (DARK ACCENT)
+     ========================================================== -->
+<section class="why on-dark" id="why">
+  <div class="why-bg">
+    <picture><source srcset="assets/images/why-bg.webp" type="image/webp"><img src="assets/images/why-bg.jpg" alt="A bright Melbourne home mid-renovation with drop sheets down and materials stacked neatly" loading="lazy" width="2000" height="1143"></picture>
+  </div>
+  <div class="wrap why-grid">
+    <div class="reveal">
+      <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Why WDC Services</span>
+      <h2>One team. One number. <span class="hl">No finger pointing</span>.</h2>
+      <p class="lede" style="margin-top:1.3rem;color:rgba(250,249,246,.78)">Most renovation stress comes from chasing six different trades who each blame the last one. You get Dom's mobile, a fixed price in writing, and a crew that turns up on the day it said it would. That is the whole difference.</p>
+      <ul class="checklist">
+        <li><svg><use href="#i-check"/></svg>Fixed price in writing before we start</li>
+        <li><svg><use href="#i-check"/></svg>Licensed plumbers, sparkies and tilers in-house</li>
+        <li><svg><use href="#i-check"/></svg>Certified waterproofing on every wet area</li>
+        <li><svg><use href="#i-check"/></svg>Drop sheets down, site swept every day</li>
+        <li><svg><use href="#i-check"/></svg>We coordinate the trades, you coordinate nobody</li>
+        <li><svg><use href="#i-check"/></svg>Insurance work handled start to finish</li>
+      </ul>
+      <div class="why-cta">
+        <a class="btn btn-gold" href="#contact">Get a free quote<svg class="icon arw"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-glass" href="tel:+61425801004"><svg class="icon"><use href="#i-phone"/></svg>0425 801 004</a>
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="glass stat"><div class="big">20+</div><div class="lbl">Years renovating Melbourne homes</div></div>
+      <div class="glass stat"><div class="big">171</div><div class="lbl">Google reviews and counting</div></div>
+      <div class="glass stat"><div class="big">5.0<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg></div><div class="lbl">Average rating across every platform</div></div>
+      <div class="glass stat"><div class="big">2-3</div><div class="lbl">Weeks for a typical bathroom build</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 6 - Process steps + mid-page CTA band
+     ========================================================== -->
+<section class="proc" id="process">
+  <div class="wrap">
+    <div class="split-head reveal">
+      <div>
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>How we work</span>
+        <h2>How a renovation <span class="hl">runs with us</span>.</h2>
+      </div>
+      <p class="lede">Four steps, no surprises. You always know what is happening tomorrow and who is turning up to do it.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="sn">01</div>
+        <h3>Get in touch</h3>
+        <p>Call Dom or send the form. Tell us the room, roughly what you have in mind, and when you would like it done.</p>
+      </div>
+      <div class="step reveal">
+        <div class="sn">02</div>
+        <h3>Free on-site quote</h3>
+        <p>We come to you, measure up, talk through layout and materials, then send a fixed written quote. No charge, no obligation.</p>
+      </div>
+      <div class="step reveal">
+        <div class="sn">03</div>
+        <h3>We do the work</h3>
+        <p>Trades are booked in the right order, materials land before they are needed, and you get told what is happening each day.</p>
+      </div>
+      <div class="step reveal">
+        <div class="sn">04</div>
+        <h3>Handover</h3>
+        <p>Final clean, waterproofing certificate, warranty paperwork, and a walk through together before we call it finished.</p>
+      </div>
+    </div>
+
+    <div class="ctaband reveal">
+      <div>
+        <h3>Got a room in mind?</h3>
+        <p>Free on-site quote. Fixed price in writing, no pressure, no obligation.</p>
+      </div>
+      <div class="grp">
+        <a class="btn btn-gold" href="#contact">Get a free quote<svg class="icon arw"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-glass" href="tel:+61425801004"><svg class="icon"><use href="#i-phone"/></svg>0425 801 004</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 7 - Recent work
+     ========================================================== -->
+<section id="work">
+  <div class="wrap">
+    <div class="split-head reveal">
+      <div>
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Recent work</span>
+        <h2>Rooms worth <span class="hl">showing off</span>.</h2>
+      </div>
+      <div style="display:flex;justify-content:flex-end;align-items:end;height:100%">
+        <a class="head-link" href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener">View all work<svg class="icon arw" style="width:16px;height:16px"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <picture><source srcset="assets/images/work-bathroom.webp" type="image/webp"><img src="assets/images/work-bathroom.jpg" alt="Family bathroom renovation with a freestanding bath and floating timber vanity" loading="lazy" width="1400" height="1032"></picture>
+        <div class="work-meta"><strong>Family bathroom, Balwyn</strong><span>Full strip-out, freestanding bath, floor tiling</span></div>
+      </div>
+      <div class="work-card reveal">
+        <picture><source srcset="assets/images/work-kitchen.webp" type="image/webp"><img src="assets/images/work-kitchen.jpg" alt="Kitchen renovation with two-tone joinery and a stone island bench" loading="lazy" width="1400" height="1032"></picture>
+        <div class="work-meta"><strong>Kitchen, Doncaster</strong><span>New joinery, stone benchtops, electrical</span></div>
+      </div>
+      <div class="work-card reveal">
+        <picture><source srcset="assets/images/work-ensuite.webp" type="image/webp"><img src="assets/images/work-ensuite.jpg" alt="Ensuite renovation with a double vanity and frameless glass shower" loading="lazy" width="1400" height="1032"></picture>
+        <div class="work-meta"><strong>Ensuite, Templestowe</strong><span>Double vanity, frameless screen, full retile</span></div>
+      </div>
+    </div>
+
+    <figure class="pullquote reveal">
+      <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+      <blockquote>"Dom and his team were absolutely fantastic with our bathroom renovation. Dom's willingness to consult, provide suggestions and advice, and attention to detail was exactly what we needed."</blockquote>
+      <cite>Andrew Stojanovic &middot; Verified Google review</cite>
+    </figure>
+
+    <div class="work-cta reveal">
+      <a class="btn btn-dark" href="#contact">Get a free quote<svg class="icon arw"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline" href="tel:+61425801004"><svg class="icon"><use href="#i-phone"/></svg>0425 801 004</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 8 - Google reviews
+     ========================================================== -->
+<section class="rev" id="reviews">
+  <div class="wrap">
+    <a class="rev-badge reveal" href="https://www.google.com/maps/search/?api=1&amp;query=WDC+Services+Kitchen+%26+Bathroom+Renovations+Balwyn+North+VIC" target="_blank" rel="noopener">
+      <svg class="gmark" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-google"/></svg>
+      Verified Google Reviews &middot; 5.0
+    </a>
+    <h2 class="reveal">Rated <span class="hl">5.0 on Google</span> by 171 clients.</h2>
+    <p class="sub reveal">No incentives. No fake reviews. Just honest feedback from Melbourne homeowners whose kitchens, bathrooms and laundries we have built.</p>
+
+    <div class="rev-chips reveal">
+      <span class="chip chip-light"><span class="stars"><svg><use href="#i-star"/></svg></span>5.0 average rating</span>
+      <span class="chip chip-light"><svg class="icon" style="width:15px;height:15px;color:var(--accent-deep)"><use href="#i-google"/></svg>171 Google reviews</span>
+      <span class="chip chip-light"><svg class="icon" style="width:15px;height:15px;color:var(--accent-deep)"><use href="#i-clock"/></svg>20+ years in the trade</span>
+    </div>
+
+    <div class="rev-grid">
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">K</div><div class="rev-who"><strong>Kimberley Dowling</strong><span>9 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>We had the pleasure of having our Bathrooms, Kitchen and Laundry renovated by WDC Services. They were extremely professional and skilled during the upgrade from start to finish. The project was delivered ahead of time and on budget.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">V</div><div class="rev-who"><strong>Vivienne Collins</strong><span>5 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>I cannot recommend Dom and team highly enough. From valuable suggestions at the design phase, to managing the trades seamlessly and Dom's attention to detail, the process was professionally managed.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">M</div><div class="rev-who"><strong>Maika MK</strong><span>3 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>We recently had our bathroom renovated by WDC Services and couldn't be happier with the result. They were very reasonably priced among the four quotes we got, and given the outcome, were exceptional value.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">C</div><div class="rev-who"><strong>Catherine Lee</strong><span>4 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>Dom and his team from WDC Services helped us to renovate two bathrooms. They were punctual for their work and paid attention to details while completed the renovation according to the 3-week turnaround time as promised.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">D</div><div class="rev-who"><strong>Douglas Helms</strong><span>4 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>Dom and the team at WDC services recently completed a complete renovation of my 30+ year old family bath room and I couldn't be happier or more satisfied.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+
+      <article class="rev-card reveal">
+        <div class="rev-top"><div class="avatar">L</div><div class="rev-who"><strong>Leanne Willson</strong><span>7 months ago</span></div></div>
+        <span class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span>
+        <p>WDC Services renovated my bathroom, laundry and toilet in November, 2025. All the team were friendly, professional, punctual, answered my queries and gave advice, and did skilled work.</p>
+        <div class="rev-src"><svg><use href="#i-google"/></svg>Posted on Google</div>
+      </article>
+    </div>
+
+    <a class="btn btn-dark rev-btn reveal" href="https://www.google.com/maps/search/?api=1&amp;query=WDC+Services+Kitchen+%26+Bathroom+Renovations+Balwyn+North+VIC" target="_blank" rel="noopener">Read all reviews on Google<svg class="icon arw"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 9 - FAQ
+     ========================================================== -->
+<section id="faq">
+  <div class="wrap faq-grid">
+    <div class="reveal">
+      <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Enquiries</span>
+      <h2>Frequent <span class="hl">questions</span>.</h2>
+      <p class="lede" style="margin-top:1.2rem">Still stuck on something? Call Dom on <a href="tel:+61425801004" style="color:var(--accent-deep);font-weight:600;text-decoration:none">0425 801 004</a> and get a straight answer.</p>
+    </div>
+
+    <div class="acc reveal">
+      <details open>
+        <summary>Are quotes really free?</summary>
+        <div class="ans">Yes. Dom comes out, measures up, and talks through layout and materials, then sends you a fixed written quote. There is no charge and no obligation. If we think the job is not worth doing, or not worth doing yet, we will tell you that too.</div>
+      </details>
+      <details>
+        <summary>Where are you based and where do you work?</summary>
+        <div class="ans">We are based in Balwyn North and cover Melbourne's inner east: Doncaster, Templestowe, Kew, Balwyn, Blackburn, Mitcham, Vermont, Bulleen, Ivanhoe, Donvale, Viewbank and Nunawading. We take on most Melbourne metro jobs as well, so it is worth asking.</div>
+      </details>
+      <details>
+        <summary>Do you take on small jobs?</summary>
+        <div class="ans">We do. Plenty of our work is a single laundry, a split system install, or a bathroom that just needs a leak sorted properly. Give us a call and we will tell you straight away whether we are the right fit for it.</div>
+      </details>
+      <details>
+        <summary>Are you licensed and insured?</summary>
+        <div class="ans">Yes. Our plumbers, electricians, tilers and waterproofers are all licensed, every wet area gets certified waterproofing, and all our work comes with a warranty for peace of mind.</div>
+      </details>
+      <details>
+        <summary>How long will my bathroom take?</summary>
+        <div class="ans">Most bathrooms run two to three weeks from strip-out to handover. We book every trade in before we start, so you are not sitting on a stripped bathroom waiting a week for a tiler to become available.</div>
+      </details>
+      <details>
+        <summary>Can you handle an insurance claim?</summary>
+        <div class="ans">Yes. We have done a lot of insurance work, including water damage from leaks. We can quote in the format your insurer needs and deal with them directly. Sometimes people do not realise they can claim at all, so it is worth a conversation before you pay out of pocket.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTION 10 - Social feed
+     ========================================================== -->
+<section id="social">
+  <div class="wrap">
+    <div class="split-head reveal">
+      <div>
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>On the 'gram</span>
+        <h2>Fresh off <span class="hl">the tools</span>.</h2>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:1.1rem;justify-content:end">
+        <p class="lede">Progress shots, finished rooms and the odd tidy pipe run. We post as jobs come off the tools.</p>
+        <a class="btn btn-outline" href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-ig"/></svg>Follow @wdc_services</a>
+      </div>
+    </div>
+
+    <div class="feed">
+      <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" class="reveal">
+        <picture><source srcset="assets/images/social-1.webp" type="image/webp"><img src="assets/images/social-1.jpg" alt="Matte black tapware over a stone basin on a light oak vanity" loading="lazy" width="800" height="1029"></picture>
+        <span class="play"><svg><use href="#i-play"/></svg></span>
+        <span class="cap"><strong>Black tapware, oak vanity</strong><span>@wdc_services</span></span>
+      </a>
+      <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" class="reveal">
+        <picture><source srcset="assets/images/social-2.webp" type="image/webp"><img src="assets/images/social-2.jpg" alt="Freshly tiled shower recess with a built-in niche" loading="lazy" width="800" height="1029"></picture>
+        <span class="play"><svg><use href="#i-play"/></svg></span>
+        <span class="cap"><strong>Niche in, grout done</strong><span>@wdc_services</span></span>
+      </a>
+      <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" class="reveal">
+        <picture><source srcset="assets/images/social-3.webp" type="image/webp"><img src="assets/images/social-3.jpg" alt="New stone kitchen benchtop with an undermount sink and brass mixer" loading="lazy" width="800" height="1029"></picture>
+        <span class="play"><svg><use href="#i-play"/></svg></span>
+        <span class="cap"><strong>Benchtop went in today</strong><span>@wdc_services</span></span>
+      </a>
+      <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" class="reveal">
+        <picture><source srcset="assets/images/social-4.webp" type="image/webp"><img src="assets/images/social-4.jpg" alt="Bright renovated laundry nook with white cabinetry and a stone bench" loading="lazy" width="800" height="1029"></picture>
+        <span class="play"><svg><use href="#i-play"/></svg></span>
+        <span class="cap"><strong>Small laundry, big lift</strong><span>@wdc_services</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================
+     SECTIONS 11 + 12 - Final CTA with form, and social banner
+     ========================================================== -->
+<div class="darkzone on-dark">
+  <section id="contact">
+    <div class="wrap cta-grid">
+      <div class="reveal">
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Let's go</span>
+        <h2>Your new bathroom <span class="hl">starts here</span>.</h2>
+        <p class="lede" style="margin-top:1.3rem;color:rgba(250,249,246,.76)">Book a free on-site quote. Dom will measure up, talk through what is actually possible in the space, and give you a fixed price in writing. No pressure, no obligation, no sales pitch.</p>
+        <a class="cta-tel" href="tel:+61425801004"><svg><use href="#i-phone"/></svg>0425 801 004</a>
+        <p class="cta-hours"><svg><use href="#i-clock"/></svg>Mon to Fri, 7:00am to 5:00pm AEST</p>
+        <p class="cta-hours"><svg><use href="#i-pin"/></svg>Balwyn North, servicing Melbourne's inner east</p>
+      </div>
+
+      <div class="formcard solid reveal">
+        <h3>Request a quote</h3>
+        <p class="sub">We'll get back to you within one business day</p>
+        <form class="gform" data-lead-form novalidate>
+          <div>
+            <label for="c-name">Name</label>
+            <input id="c-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="c-phone">Phone</label>
+            <input id="c-phone" name="phone" type="tel" placeholder="04XX XXX XXX" autocomplete="tel">
+          </div>
+          <div>
+            <label for="c-email">Email</label>
+            <input id="c-email" name="email" type="email" placeholder="you@email.com" autocomplete="email">
+          </div>
+          <div>
+            <label for="c-service">Service</label>
+            <select id="c-service" name="service">
+              <option value="">Choose a service</option>
+              <option>Bathroom renovation</option>
+              <option>Kitchen renovation</option>
+              <option>Laundry renovation</option>
+              <option>Split system air conditioning</option>
+              <option>Tiling and waterproofing</option>
+              <option>Electrical or handyman work</option>
+              <option>Not sure / something else</option>
+            </select>
+          </div>
+          <div>
+            <label for="c-msg">Message (optional)</label>
+            <textarea id="c-msg" name="message" rows="2" placeholder="Tell us about the room and roughly when you'd like it done"></textarea>
+          </div>
+          <button class="btn btn-gold submit" type="submit">Request my quote<svg class="icon arw"><use href="#i-arrow"/></svg></button>
+        </form>
+        <p class="microcopy">Same-business-day response &middot; No obligation</p>
+        <div class="form-done">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+          <strong>Thanks, we've got it.</strong>
+          <span>We'll be in touch same business day. If it's urgent, call Dom on 0425 801 004.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="wrap banner-in">
+      <div class="reveal">
+        <span class="eyebrow"><svg class="dot"><use href="#i-dot"/></svg>Follow our work</span>
+        <h2>See what we're <span class="hl">building right now</span>.</h2>
+        <p>Job progress, finished rooms and the occasional before-and-after that is hard to believe.</p>
+      </div>
+      <div class="grp reveal">
+        <a class="btn btn-glass" href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-ig"/></svg>Instagram</a>
+        <a class="btn btn-glass" href="https://www.facebook.com/wdcservices1/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-fb"/></svg>Facebook</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<!-- ==========================================================
+     SECTION 13 - Footer
+     ========================================================== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="flogo" src="assets/images/logo-light.png" alt="WDC Services Kitchen &amp; Bathroom Renovations" width="900" height="296" loading="lazy">
+        <p>Kitchen, bathroom and laundry renovations done properly, by a team that turns up when it says it will. Based in Balwyn North, working right across Melbourne's inner east.</p>
+        <div class="foot-contact">
+          <a href="tel:+61425801004"><svg><use href="#i-phone"/></svg>0425 801 004</a>
+          <a href="mailto:info@wdcservices.com.au"><svg><use href="#i-mail"/></svg>info@wdcservices.com.au</a>
+        </div>
+        <div class="foot-soc">
+          <a href="https://www.instagram.com/wdc_services/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon"><use href="#i-ig"/></svg></a>
+          <a href="https://www.facebook.com/wdcservices1/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon"><use href="#i-fb"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Bathroom renovations</a></li>
+          <li><a href="#services">Kitchen renovations</a></li>
+          <li><a href="#services">Laundry renovations</a></li>
+          <li><a href="#services">Split system air conditioning</a></li>
+          <li><a href="#services">Tiling &amp; waterproofing</a></li>
+          <li><a href="#services">Electrical &amp; handyman</a></li>
+          <li><a href="#services">View all services</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why">About us</a></li>
+          <li><a href="#process">How we work</a></li>
+          <li><a href="#work">Our work</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Coverage</h4>
+        <p class="foot-area"><svg><use href="#i-pin"/></svg>Balwyn North, VIC 3104. Servicing Doncaster, Templestowe, Kew, Balwyn, Blackburn, Mitcham, Vermont, Bulleen, Ivanhoe, Donvale, Viewbank, Nunawading and most Melbourne metro.</p>
+        <p class="foot-area" style="margin-top:1rem"><svg><use href="#i-clock"/></svg>Mon to Fri, 7:00am to 5:00pm AEST</p>
+      </div>
+    </div>
+
+    <div class="foot-bar">
+      <span>&copy; <span id="yr">2026</span> WDC Services. All rights reserved.</span>
+      <div class="badges">
+        <span>Licensed Trades</span>
+        <span>Certified Waterproofing</span>
+        <span>Insurance Work Approved</span>
+        <span>All Work Warranted</span>
+      </div>
+      <nav><a href="#top">Home</a><a href="#contact">Contact</a><a href="#faq">FAQ</a></nav>
+    </div>
+  </div>
+</footer>
+
+<!-- Schema.org: numbers here must match the rating shown on the page -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"HomeAndConstructionBusiness",
+  "name":"WDC Services Kitchen & Bathroom Renovations",
+  "url":"https://wdcservices.com.au/",
+  "image":"https://wdcservices.com.au/assets/images/hero.jpg",
+  "logo":"https://wdcservices.com.au/assets/images/logo-light.png",
+  "telephone":"+61425801004",
+  "email":"info@wdcservices.com.au",
+  "priceRange":"$$",
+  "address":{"@type":"PostalAddress","streetAddress":"6 Millicent Ave","addressLocality":"Balwyn North","addressRegion":"VIC","postalCode":"3104","addressCountry":"AU"},
+  "areaServed":["Balwyn North","Balwyn","Doncaster","Templestowe","Kew","Blackburn","Mitcham","Vermont","Bulleen","Ivanhoe","Donvale","Viewbank","Nunawading","Melbourne"],
+  "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"17:00"}],
+  "sameAs":["https://www.facebook.com/wdcservices1/","https://www.instagram.com/wdc_services/"],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"171","bestRating":"5"},
+  "hasOfferCatalog":{"@type":"OfferCatalog","name":"Renovation services","itemListElement":[
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bathroom renovations"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kitchen renovations"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Laundry renovations"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Split system air conditioning supply and installation"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Tiling and waterproofing"}}
+  ]}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"Are quotes really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dom comes out, measures up, and talks through layout and materials, then sends you a fixed written quote. There is no charge and no obligation."}},
+    {"@type":"Question","name":"Where are you based and where do you work?","acceptedAnswer":{"@type":"Answer","text":"We are based in Balwyn North and cover Melbourne's inner east: Doncaster, Templestowe, Kew, Balwyn, Blackburn, Mitcham, Vermont, Bulleen, Ivanhoe, Donvale, Viewbank and Nunawading. We take on most Melbourne metro jobs as well."}},
+    {"@type":"Question","name":"Do you take on small jobs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Plenty of our work is a single laundry, a split system install, or a bathroom that just needs a leak sorted properly."}},
+    {"@type":"Question","name":"Are you licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our plumbers, electricians, tilers and waterproofers are all licensed, every wet area gets certified waterproofing, and all our work comes with a warranty."}},
+    {"@type":"Question","name":"How long will my bathroom take?","acceptedAnswer":{"@type":"Answer","text":"Most bathrooms run two to three weeks from strip-out to handover. We book every trade in before we start."}},
+    {"@type":"Question","name":"Can you handle an insurance claim?","acceptedAnswer":{"@type":"Answer","text":"Yes. We have done a lot of insurance work, including water damage from leaks. We can quote in the format your insurer needs and deal with them directly."}}
+  ]
+}
+</script>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Navbar: solid background after 40px scroll */
+  var nav = document.getElementById("nav");
+  function onScroll(){ nav.classList.toggle("solid", window.scrollY > 40); }
+  onScroll();
+  window.addEventListener("scroll", onScroll, {passive:true});
+
+  /* Mobile menu */
+  var burger = document.getElementById("burger");
+  var mob = document.getElementById("mobmenu");
+  burger.addEventListener("click", function(){
+    var open = mob.classList.toggle("open");
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  mob.addEventListener("click", function(e){
+    if (e.target.tagName === "A"){ mob.classList.remove("open"); burger.setAttribute("aria-expanded","false"); }
+  });
+
+  /* Scroll-in reveal: fade + rise, once, staggered between siblings */
+  var reveals = document.querySelectorAll(".reveal");
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        var sibs = Array.prototype.slice.call(el.parentNode.children).filter(function(n){ return n.classList.contains("reveal"); });
+        el.style.transitionDelay = (Math.min(sibs.indexOf(el), 5) * 75) + "ms";
+        el.classList.add("in");
+        io.unobserve(el);
+      });
+    }, {rootMargin:"0px 0px -8% 0px", threshold:0.08});
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add("in"); });
+  }
+
+  /* Lead forms.
+     Both forms are identical. Point ENDPOINT at your form handler or webhook
+     (Formspree, Netlify Forms, a CRM endpoint, or wp-admin/admin-ajax.php).
+     Until then the form validates and shows the success state locally. */
+  var ENDPOINT = "";
+  document.querySelectorAll("form[data-lead-form]").forEach(function(form){
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var name  = form.querySelector('[name="name"]');
+      var phone = form.querySelector('[name="phone"]');
+      var email = form.querySelector('[name="email"]');
+
+      if (!name.value.trim()){ name.focus(); return; }
+      if (!phone.value.trim() && !email.value.trim()){
+        phone.setAttribute("placeholder", "Please add a phone number or an email");
+        phone.focus();
+        return;
+      }
+
+      var done = function(){ form.classList.add("sent"); form.parentNode.classList.add("sent"); };
+
+      if (!ENDPOINT){ done(); return; }
+      fetch(ENDPOINT, {
+        method:"POST",
+        headers:{"Accept":"application/json"},
+        body:new FormData(form)
+      }).then(done).catch(done);
+    });
+  });
+
+  /* Footer year */
+  document.getElementById("yr").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
