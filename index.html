@@ -180,8 +180,8 @@ p{margin:0}
 .hero-bg::after{
   content:"";position:absolute;inset:0;
   background:
-    radial-gradient(ellipse 58% 86% at 18% 50%,rgba(0,0,0,.56) 0%,rgba(0,0,0,.30) 46%,transparent 73%),
-    linear-gradient(180deg,rgba(0,0,0,.12) 0%,rgba(0,0,0,.10) 55%,rgba(0,0,0,.30) 100%);
+    radial-gradient(ellipse 58% 86% at 20% 50%,rgba(8,8,6,.44) 0%,rgba(8,8,6,.22) 50%,transparent 78%),
+    linear-gradient(180deg,rgba(19,19,16,.24) 0%,rgba(19,19,16,.14) 45%,rgba(19,19,16,.46) 100%);
 }
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.3fr .9fr;gap:52px;align-items:center}
 .rating-badge{
@@ -282,8 +282,9 @@ p{margin:0}
 .why-bg::after{
   content:"";position:absolute;inset:0;
   background:
-    radial-gradient(ellipse 62% 90% at 22% 50%,rgba(0,0,0,.60) 0%,rgba(0,0,0,.32) 48%,transparent 75%),
-    linear-gradient(180deg,rgba(0,0,0,.16) 0%,rgba(0,0,0,.14) 55%,rgba(0,0,0,.34) 100%);
+    radial-gradient(ellipse 64% 90% at 22% 50%,rgba(8,8,6,.60) 0%,rgba(8,8,6,.34) 48%,transparent 78%),
+    radial-gradient(ellipse 52% 84% at 82% 50%,rgba(8,8,6,.34) 0%,rgba(8,8,6,.16) 55%,transparent 82%),
+    linear-gradient(180deg,rgba(19,19,16,.42) 0%,rgba(19,19,16,.32) 45%,rgba(19,19,16,.58) 100%);
 }
 .why-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .8fr;gap:60px;align-items:center}
 .checklist{display:grid;grid-template-columns:1fr 1fr;gap:13px 30px;margin:1.7rem 0 0;padding:0;list-style:none}
@@ -368,8 +369,7 @@ p{margin:0}
 /* ==========================================================================
    SECTION 9 - FAQ
    ========================================================================== */
-.faq-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
-@media (min-width:1081px){.faq-head{position:sticky;top:108px}}
+.faq-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
 .acc{border-top:1px solid var(--border)}
 .acc details{border-bottom:1px solid var(--border)}
 .acc summary{
@@ -409,16 +409,19 @@ p{margin:0}
 /* ==========================================================================
    SECTIONS 11-13 - Final CTA, social banner, footer (dark zone)
    ========================================================================== */
-.darkzone{background:var(--bg-dark);position:relative;overflow:hidden}
-.darkzone::before{
-  content:"";position:absolute;inset:0 0 auto;height:70%;z-index:0;
-  background-image:url("assets/images/cta-bg.jpg");background-size:cover;background-position:center;opacity:.45;
-}
-.darkzone::after{
+.darkzone{background:var(--bg-dark)}
+/* The photo backdrop belongs to the CTA section only, so its edge lands on the
+   section boundary instead of cutting across the form card. */
+#contact{position:relative;overflow:hidden}
+#contact::before{
   content:"";position:absolute;inset:0;z-index:0;
-  background:linear-gradient(180deg,rgba(19,19,16,.40) 0%,rgba(19,19,16,.80) 58%,var(--bg-dark) 100%);
+  background-image:url("assets/images/cta-bg.jpg");background-size:cover;background-position:center;opacity:.72;
 }
-.darkzone > *{position:relative;z-index:1}
+#contact::after{
+  content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(19,19,16,.30) 0%,rgba(19,19,16,.54) 58%,rgba(19,19,16,.80) 100%);
+}
+#contact > *{position:relative;z-index:1}
 .cta-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
 .cta-tel{display:inline-flex;align-items:center;gap:.7rem;margin-top:2.2rem;font-size:clamp(1.6rem,3vw,2.1rem);font-weight:700;letter-spacing:-.02em;color:#fff;text-decoration:none}
 .cta-tel svg{width:26px;height:26px;color:var(--accent)}
@@ -439,7 +442,6 @@ p{margin:0}
 .formcard.solid .form-done strong{color:var(--text-dark)}
 .formcard.solid .form-done svg{color:var(--accent-deep)}
 
-#contact{padding-bottom:clamp(1.9rem,3vw,2.6rem)}
 .banner{border-top:1px solid rgba(255,255,255,.08);padding:clamp(2rem,3.2vw,2.6rem) 0}
 .banner-in{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
 .banner h2{font-size:clamp(1.6rem,3vw,2.2rem)}
@@ -516,8 +518,11 @@ p{margin:0}
 @media (max-width:720px){
   section{padding:clamp(2.1rem,5.5vw,2.8rem) 0}
   /* text spans the full width on mobile, so the vignette becomes a vertical wash */
-  .hero-bg::after,.why-bg::after{
-    background:linear-gradient(180deg,rgba(0,0,0,.36) 0%,rgba(0,0,0,.46) 50%,rgba(0,0,0,.56) 100%);
+  .hero-bg::after{
+    background:linear-gradient(180deg,rgba(19,19,16,.26) 0%,rgba(19,19,16,.34) 50%,rgba(19,19,16,.50) 100%);
+  }
+  .why-bg::after{
+    background:linear-gradient(180deg,rgba(19,19,16,.46) 0%,rgba(19,19,16,.54) 50%,rgba(19,19,16,.64) 100%);
   }
   .hero{min-height:auto;padding:110px 0 48px}
   .hero-cta .btn,.why-cta .btn,.ctaband .grp .btn{flex:1 1 100%}
@@ -605,7 +610,7 @@ p{margin:0}
   <div class="hero-bg">
     <picture>
       <source srcset="assets/images/hero.webp" type="image/webp">
-      <img src="assets/images/hero.jpg" alt="A bright, freshly renovated bathroom with a floating oak vanity and herringbone tiled floor" width="2000" height="1143" fetchpriority="high">
+      <img src="assets/images/hero.jpg" alt="A renovated bathroom in dark stone tiling with a backlit mirror, warm oak vanity and herringbone floor" width="2000" height="1143" fetchpriority="high">
     </picture>
   </div>
   <div class="wrap hero-grid">
